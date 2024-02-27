@@ -14,6 +14,11 @@ export default function App() {
           source={require('./assets/fox.jpg')}
           style={{width: 200, height: 200, alignSelf: 'center' }}
         />
+        <Text style={{alignSelf: 'center'}}>Távoli kép beillesztése (WEBről):</Text>
+        <Image 
+          source={{uri: 'https://picsum.photos/200'}}
+          style={{width: 200, height: 200, alignSelf: 'center' }}
+        />
         <Text style={styles.padrow}>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </Text>
